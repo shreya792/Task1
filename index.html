@@ -1,0 +1,75 @@
+
+<html>
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+        <meta name="description" content="Samsung Smart Watch">
+        <meta name="author" cotent="Dijoraj Senroy">
+        <title>Samsung Smart Watch</title>
+        <!-- CSS for homepage -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Font from google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id = "header">
+
+            <!--nav-bar section: flexbox used here-->
+            <nav id = "nav-bar">
+                <img src="logo.png" id="header-img">
+                <button id = "pos1" class = "nav-link">
+                    <a href = "#style-link">Styles</a>
+                </button>
+                <button id = "pos2" class = "nav-link">
+                    <a href="#trail-link">Trailer</a>
+                </button>
+                <button id = "pos3" class = "nav-link">
+                    <a href="#form">Buy Now</a>
+                </button>
+            </nav>
+
+            <!-- header image section -->
+            <h1>Presenting, Galaxy Watch Active II</h1>
+            <hr style ="border: solid 1px  rgb(51, 159, 248, 0.4); width:20%;">
+            <p style="text-align:center; font-size:1.2em;">Best in class gear for productivity and fitness!</p>
+            <br>
+            <button class = "nav-link">
+                <a href="#form">Buy Now</a>
+            </button>
+
+            <!-- Flex box and Media Query used here -->
+            <div id = "watch-images">
+                <img src = "img1.jpg" class = "watch-img">
+                <img src = "img2.jpg" class = "watch-img">
+                <img src = "img3.jpg" class = "watch-img">
+            </div>
+        </header>
+
+        <!-- Style section: Flexbox used here -->
+        <br id = "style-link">
+        <h2 id = "feature-title"> A host of new features and superior performance - now in 3 variants! </h2>
+        <div class = "feature-container">
+            <div class = "card">
+                <img src="style1.png" class = "style-img">
+                <h2 style = "color: rgb(180, 134, 6); text-align: center; "> Rose Gold </h2>
+            </div>
+            <div class="card">
+                <img src="style2.png" class="style-img">
+                <h2 style ="text-align: center; color: rgb(85, 78, 78);"> Stainless Steel </h2>
+            </div>
+            <div class="card">
+                <img src="style3.png" class="style-img">
+                <h2 style ="color:rgb(22, 19, 19); text-align: center;"> Onyx Black </h2>
+            </div>
+        </div>
+
+       
+        
+        <h1 id ="feature-title"> Enter e-mail to order now! </h1>
+        <form id = "form" >
+            <input type = "text" id= "email" name = "email"><br>
+            <input type = "submit" id = "submit" value = "Submit">
+        </form>
+    </body>
+</html>
